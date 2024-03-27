@@ -69,15 +69,7 @@ th, td {
     padding: 10px;
     text-align: left;
 }
-/* CSS for animated class */
-.animated:hover {
-    color: skyblue; /* Change font color to skyblue on hover */
-    transition: color 0.5s; /* Smooth transition effect */
-}
-
-/* CSS for headers */
-h1, h2, h3, h4, h5, h6 {
-    color: red; /* Set font color to red */
-    font-size: 40px; /* Set font size to 40 pixels */
-    font-family: fantasy; /* Set font family to Fantasy */
-}
+.header.milestone h2 {
+    color: red;
+    font-size: 40px;
+    font-family: Fantasy, sans-serif; 
