@@ -69,7 +69,8 @@ th, td {
     padding: 10px;
     text-align: left;
 }
-.header.milestone h2 {
-    color: red;
-    font-size: 40px;
-    font-family: Fantasy, sans-serif; 
+/* CSS for milestone headers */
+header h1 {
+    color: red; /* Set font color to red */
+    font-size: 40px; /* Set font size to 40 pixels */
+    font-family: fantasy; /* Set font family to Fantasy */
