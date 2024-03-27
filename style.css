@@ -69,8 +69,15 @@ th, td {
     padding: 10px;
     text-align: left;
 }
-/* CSS for milestone headers */
+/* CSS for milestone header */
 header h1 {
-    color: red; /* Set font color to red */
+    color: red; /* Set default font color to red */
     font-size: 40px; /* Set font size to 40 pixels */
     font-family: fantasy; /* Set font family to Fantasy */
+    transition: color 0.5s; /* Add transition effect for color change */
+}
+
+/* CSS for hover effect */
+header h1:hover {
+    color: skyblue; /* Change font color to skyblue on hover */
+}
